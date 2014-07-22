@@ -1,0 +1,10 @@
+PODS:
+  - DTBonjour (1.1.0)
+
+DEPENDENCIES:
+  - DTBonjour
+
+SPEC CHECKSUMS:
+  DTBonjour: c6be12b4710c27d013fc37ff0b5b23a55492c940
+
+COCOAPODS: 0.33.1
