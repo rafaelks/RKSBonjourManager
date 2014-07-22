@@ -21,9 +21,9 @@
 		416E0A151979399D00495F97 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416E09FD1979399D00495F97 /* UIKit.framework */; };
 		416E0A1D1979399D00495F97 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 416E0A1B1979399D00495F97 /* InfoPlist.strings */; };
 		416E0A1F1979399D00495F97 /* RKSBonjourTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 416E0A1E1979399D00495F97 /* RKSBonjourTests.m */; };
-		4186F0A5197E84C500A1CC0E /* RKSBonjourManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4186F0A4197E84C500A1CC0E /* RKSBonjourManager.m */; };
-		4186F0A8197E900500A1CC0E /* RKSBonjourServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4186F0A7197E900500A1CC0E /* RKSBonjourServer.m */; };
-		4186F0AB197E908C00A1CC0E /* RKSBonjourClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4186F0AA197E908C00A1CC0E /* RKSBonjourClient.m */; };
+		4186F0B3197E99B800A1CC0E /* RKSBonjourClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4186F0AE197E99B800A1CC0E /* RKSBonjourClient.m */; };
+		4186F0B4197E99B800A1CC0E /* RKSBonjourManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4186F0B0197E99B800A1CC0E /* RKSBonjourManager.m */; };
+		4186F0B5197E99B800A1CC0E /* RKSBonjourServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4186F0B2197E99B800A1CC0E /* RKSBonjourServer.m */; };
 		DB5856B11317409BBA6F979A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BA969C911214D7F94535777 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -58,12 +58,12 @@
 		416E0A1A1979399D00495F97 /* RKSBonjourTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RKSBonjourTests-Info.plist"; sourceTree = "<group>"; };
 		416E0A1C1979399D00495F97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		416E0A1E1979399D00495F97 /* RKSBonjourTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RKSBonjourTests.m; sourceTree = "<group>"; };
-		4186F0A3197E84C500A1CC0E /* RKSBonjourManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKSBonjourManager.h; sourceTree = "<group>"; };
-		4186F0A4197E84C500A1CC0E /* RKSBonjourManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKSBonjourManager.m; sourceTree = "<group>"; };
-		4186F0A6197E900500A1CC0E /* RKSBonjourServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKSBonjourServer.h; sourceTree = "<group>"; };
-		4186F0A7197E900500A1CC0E /* RKSBonjourServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKSBonjourServer.m; sourceTree = "<group>"; };
-		4186F0A9197E908C00A1CC0E /* RKSBonjourClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKSBonjourClient.h; sourceTree = "<group>"; };
-		4186F0AA197E908C00A1CC0E /* RKSBonjourClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKSBonjourClient.m; sourceTree = "<group>"; };
+		4186F0AD197E99B800A1CC0E /* RKSBonjourClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKSBonjourClient.h; path = RKSBonjourManager/RKSBonjourClient.h; sourceTree = "<group>"; };
+		4186F0AE197E99B800A1CC0E /* RKSBonjourClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKSBonjourClient.m; path = RKSBonjourManager/RKSBonjourClient.m; sourceTree = "<group>"; };
+		4186F0AF197E99B800A1CC0E /* RKSBonjourManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKSBonjourManager.h; path = RKSBonjourManager/RKSBonjourManager.h; sourceTree = "<group>"; };
+		4186F0B0197E99B800A1CC0E /* RKSBonjourManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKSBonjourManager.m; path = RKSBonjourManager/RKSBonjourManager.m; sourceTree = "<group>"; };
+		4186F0B1197E99B800A1CC0E /* RKSBonjourServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKSBonjourServer.h; path = RKSBonjourManager/RKSBonjourServer.h; sourceTree = "<group>"; };
+		4186F0B2197E99B800A1CC0E /* RKSBonjourServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKSBonjourServer.m; path = RKSBonjourManager/RKSBonjourServer.m; sourceTree = "<group>"; };
 		6BA969C911214D7F94535777 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -171,12 +171,12 @@
 		4186F0AC197E924300A1CC0E /* RKSBonjourManager */ = {
 			isa = PBXGroup;
 			children = (
-				4186F0A3197E84C500A1CC0E /* RKSBonjourManager.h */,
-				4186F0A4197E84C500A1CC0E /* RKSBonjourManager.m */,
-				4186F0A6197E900500A1CC0E /* RKSBonjourServer.h */,
-				4186F0A7197E900500A1CC0E /* RKSBonjourServer.m */,
-				4186F0A9197E908C00A1CC0E /* RKSBonjourClient.h */,
-				4186F0AA197E908C00A1CC0E /* RKSBonjourClient.m */,
+				4186F0AD197E99B800A1CC0E /* RKSBonjourClient.h */,
+				4186F0AE197E99B800A1CC0E /* RKSBonjourClient.m */,
+				4186F0AF197E99B800A1CC0E /* RKSBonjourManager.h */,
+				4186F0B0197E99B800A1CC0E /* RKSBonjourManager.m */,
+				4186F0B1197E99B800A1CC0E /* RKSBonjourServer.h */,
+				4186F0B2197E99B800A1CC0E /* RKSBonjourServer.m */,
 			);
 			name = RKSBonjourManager;
 			sourceTree = "<group>";
@@ -314,11 +314,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4132D25419793A3B00AB3076 /* RKSMainViewController.m in Sources */,
-				4186F0AB197E908C00A1CC0E /* RKSBonjourClient.m in Sources */,
-				4186F0A8197E900500A1CC0E /* RKSBonjourServer.m in Sources */,
+				4186F0B5197E99B800A1CC0E /* RKSBonjourServer.m in Sources */,
 				416E0A061979399D00495F97 /* main.m in Sources */,
-				4186F0A5197E84C500A1CC0E /* RKSBonjourManager.m in Sources */,
+				4186F0B4197E99B800A1CC0E /* RKSBonjourManager.m in Sources */,
 				416E0A0A1979399D00495F97 /* RKSAppDelegate.m in Sources */,
+				4186F0B3197E99B800A1CC0E /* RKSBonjourClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
